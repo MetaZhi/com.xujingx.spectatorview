@@ -26,9 +26,9 @@
     }
   ],
   "dependencies": {
-    "com.microsoft.azure.spatial-anchors-sdk.android": "2.8.1",
-    "com.microsoft.azure.spatial-anchors-sdk.ios": "2.8.1",
-    "com.microsoft.azure.spatial-anchors-sdk.windows": "2.8.1",
+    "com.microsoft.azure.spatial-anchors-sdk.android": "2.9.0",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "2.9.0",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "2.9.0",
     "com.unity.xr.arcore": "4.1.7",
     "com.unity.xr.arfoundation": "4.1.7",
     "com.unity.xr.arkit": "4.1.7"

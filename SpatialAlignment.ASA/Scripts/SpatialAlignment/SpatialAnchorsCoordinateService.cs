@@ -65,7 +65,7 @@ namespace Microsoft.MixedReality.SpatialAlignment
 
                 CloudSpatialAnchor cloudSpatialAnchor = new CloudSpatialAnchor()
                 {
-                    LocalAnchor = nativeAnchor.GetPointer(),
+                    LocalAnchor = await nativeAnchor.GetPointer(),
                     Expiration = DateTime.Now.AddDays(1)
                 };
 
