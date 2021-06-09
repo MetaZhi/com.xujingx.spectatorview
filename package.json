@@ -1,0 +1,24 @@
+{
+  "name": "com.microsoft.mixedreality.spectatorview",
+  "version": "1.2.0",
+  "displayName": "Spectator View",
+  "description": "This is package is used for filming HoloLens 2 experiences",
+  "unity": "2019.4",
+  "unityRelease": "19f1",
+  "keywords": [
+    "SpectatorView",
+    "HoloLens",
+    "Filming",
+    "MRTK",
+    "MixedReality"
+  ],
+  "author": {
+    "name": "Microsoft",
+    "url": "https://www.aka.ms/spectatorview"
+  },
+  "dependencies": {
+    "com.unity.xr.arcore": "4.1.7",
+    "com.unity.xr.arfoundation": "4.1.7",
+    "com.unity.xr.arkit": "4.1.7"
+  }
+}

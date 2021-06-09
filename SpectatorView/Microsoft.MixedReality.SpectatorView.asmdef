@@ -1,0 +1,25 @@
+{
+    "name": "Microsoft.MixedReality.SpectatorView",
+    "references": [
+        "Microsoft.MixedReality.PhotoCapture",
+        "Microsoft.MixedReality.SpatialAlignment",
+        "Microsoft.MixedReality.SpatialAlignment.ASA",
+        "Microsoft.MixedReality.SpectatorView.ExternalDependencies",
+        "Unity.TextMeshPro",
+        "Unity.XR.ARFoundation",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "WSA"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
