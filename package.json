@@ -16,7 +16,19 @@
     "name": "Microsoft",
     "url": "https://www.aka.ms/spectatorview"
   },
+  "scopedRegistries": [
+    {
+      "name": "Azure Mixed Reality Services",
+      "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry/",
+      "scopes": [
+        "com.microsoft.azure.spatial-anchors-sdk"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.microsoft.azure.spatial-anchors-sdk.android": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry/com.microsoft.azure.spatial-anchors-sdk.android@2.8.1",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "2.8.1",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "2.8.1",
     "com.unity.xr.arcore": "4.1.7",
     "com.unity.xr.arfoundation": "4.1.7",
     "com.unity.xr.arkit": "4.1.7"
