@@ -52,7 +52,9 @@ namespace Microsoft.MixedReality.SpectatorView
         private Dictionary<int, Marker> _nextMarkerUpdate;
         private MarkerDetectionCompletionStrategy _detectionCompletionStrategy;
         private object lockObj = new object();
+#if !UNITY_EDITOR
         private Task setupCameraTask = null;
+#endif
 
 #pragma warning disable 414 // The field is assigned but its value is never used
         private Dictionary<int, List<Marker>> _markerObservations = null;
