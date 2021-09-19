@@ -3,4 +3,4 @@
 
 基本的使用方法：https://mp.weixin.qq.com/s/f23myiIat5oLOYszOrVthA
 
-技术讨论群：
+技术讨论群：[695965244](https://jq.qq.com/?_wv=1027&k=Ddv4WVNC)
