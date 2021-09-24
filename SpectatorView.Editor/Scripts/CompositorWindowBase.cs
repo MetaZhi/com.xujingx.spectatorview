@@ -29,7 +29,6 @@ namespace Microsoft.MixedReality.SpectatorView.Editor
             ArUcoMarkerVisualDetectorSpatialLocalizer.Id,
             QRCodeMarkerVisualSpatialLocalizer.Id,
             QRCodeMarkerVisualDetectorSpatialLocalizer.Id,
-            WorldAnchorSpatialLocalizer.Id,
             new Guid("FB077E49-B855-453F-9FB5-77187B1AF784") // SpatialAnchorsLocalizer (There is no asmdef to reference for ASA)
         };
 
@@ -248,16 +247,6 @@ namespace Microsoft.MixedReality.SpectatorView.Editor
                     selectedLocalizerIds[deviceTypeLabel] = selectedLocalizerId;
                     SpatialLocalizationSettingsGUI(deviceTypeLabel, selectedLocalizerIndex, localizers);
                 }
-            }
-            GUILayout.EndHorizontal();
-
-            GUILayout.BeginHorizontal();
-            {
-                if (GUILayout.Button(new GUIContent("Locate Shared Spatial Coordinate", "Detects the shared location used to position objects in the same physical location on multiple devices")))
-                {
-                    CompositorWorldAnchorLocalizationManager.Instance.RunRemoteLocalizationWithWorldAnchorPersistence(spatialCoordinateSystemParticipant, selectedLocalizerId, LoadLocalizerSettings(localizers[selectedLocalizerIndex]));
-                }
-                GUILayout.Label(string.Empty, GUILayout.Width(settingsButtonWidth));
             }
             GUILayout.EndHorizontal();
 
